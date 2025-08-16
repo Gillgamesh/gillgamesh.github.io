@@ -17,11 +17,18 @@ export const experiences = [
 
 export const education = [
 	{
-		school: '',
-		time: '',
-		degree: '',
-		location: '',
-		description: '',
+		school: 'Stony Brook University',
+		time: '2022 - 2027',
+		degree: 'Ph.D., Computer Science',
+		location: 'Stony Brook, NY',
+		// description: 'Advised by Michael Bender and Joseph Mitchell',
+	},
+	{
+		school: 'Stony Brook University',
+		time: '2018 - 2022',
+		degree: 'B.S., Mathematics \& Computer Science',
+		location: 'Stony Brook, NY',
+		// description: 'Advised by Michael Bender and Joseph Mitchell',
 	},
 	// {
 	// 	school: 'University of Paris',

@@ -2,7 +2,22 @@
 export default {
     content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
     theme: {
-        extend: {},
+        extend: {
+            typography: ({ theme }) => ({
+                DEFAULT: {
+                    css: {
+                        a: {
+                            'text-decoration': 'none',
+                            'color': 'inherit',
+                            '&:hover': {
+                                color: 'hsl(var(--p))',
+                                'text-decoration': 'underline',
+                            },
+                        },
+                    },
+                },
+            }),
+        },
     },
     plugins: [require("@tailwindcss/typography"), require("daisyui")],
     daisyui: {

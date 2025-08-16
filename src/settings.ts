@@ -1,21 +1,22 @@
 export const profile = {
-	fullName: 'Your Name',
-	title: '',
-	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	fullName: 'Gilvir Gill',
+	title: 'P.h.D. Candidate',
+	institute: 'Stony Brook University',
+	author_name: 'Gilvir Gill', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		{ title: 'Distributed Graph Sketching', description: 'Designing and analyzing sketching data structures for large, dynamic graphs in distributed settings.', field: 'distributed-graph-sketching' },
 	],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
-	linkedin: '',
-	x: 'https://www.x.com/',
-	github: '',
+	email: 'gigill@cs.stonybrook.edu',
+	linkedin: 'https://www.linkedin.com/in/gilvir-gill/',
+	x: '',
+	github: 'https://github.com/gillgamesh',
 	gitlab: '',
-	scholar: '',
+	scholar: 'https://scholar.google.com/citations?user=2KCwSzQAAAAJ&hl=en',
 	inspire: '',
 	arxiv: '',
 }
@@ -32,7 +33,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
-	default_description: 'Astro Academia is a template for academic websites.',
+	default_title: 'Gilvir Gill',
+	default_description: 'Ph.D. Candidate at Stony Brook University',
 	default_image: '/images/astro-academia.png',
 }
