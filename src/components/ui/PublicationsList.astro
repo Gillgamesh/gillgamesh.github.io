@@ -2,6 +2,7 @@
 import { isSkill } from '@/types/cv';
 import type { Skill, Publication } from '@/types/cv';
 import { highlightAuthor } from '@/lib/utils'
+import { renderToString } from 'react-dom/server';
 
 interface Props {
 	elements: (Skill | Publication)[]
@@ -25,13 +26,13 @@ const { elements } = Astro.props
         <h3 class='text-lg font-bold mb-2'>{element.title}</h3>
       </a>
       <p class='text-base mb-2'>
-        <span class='font-medium'>Authors:</span>{' '}
+        {/* <span class='font-medium'>Authors:</span>{' '} */}
         <span
           set:html={highlightAuthor(element.authors as string)}
         />
       </p>
       <p class='text-sm mb-3'>
-        <span class='italic'>{element.journal}</span> •{' '}
+        <span class='italic' set:html={renderToString(element.journal)}></span> •{' '}
         {element.time}
       </p>
       <p>{element.abstract}</p>
