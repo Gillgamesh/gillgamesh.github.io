@@ -1,5 +1,5 @@
 Hi! I'm Gilvir, a fourth year Ph.D. student in the Computer Science department at [Stony Brook University](https://www.cs.stonybrook.edu/). 
-I'm dual advised by [Michael Bender](https://www.cs.stonybrook.edu/~bender/) and [Joseph Mitchell](https://www.ams.sunysb.edu/~jsbm/jsbm.html).
+I am dual advised by [Michael Bender](https://www.cs.stonybrook.edu/~bender/) and [Joseph Mitchell](https://www.ams.sunysb.edu/~jsbm/jsbm.html).
 
 
 I'm primarily an algorithmist/theoritician, and my dissertation research is on **practical linear sketching for large, dynamic graphs**.
@@ -13,3 +13,7 @@ As an NSF-funded [BIAS-NRT](https://www.stonybrook.edu/commcms/bias-nrt/_about/i
 <!-- I've worked on extracting community-level mental health assessments from social media, and am working on understanding topic-level beliefs through time and space. -->
 
 <!-- My hobbies include reading, hiking, and building physical things in my free time (as opposed to the slightly less tangible proofs and C++ code I write for work). -->
+
+**For recent publications and updates**, see my [curriculum vitae](/cv). 
+
+<!-- Or feel free to explore this website to learn more about my current [algorithms/theory](/theory) research or my past/current [computational social science](/comp_social) work. -->

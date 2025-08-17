@@ -14,7 +14,7 @@ const {fullName, title, institute, profilePicture} = Astro.props
     <span class='text-primary'>{fullName}</span>
   </h1>
   <p class='text-xl text-gray-600 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
-  <div class="prose prose-lg [&_a]:text-primary">
+  <div class="prose pt-8 prose-lg [&_a]:text-primary">
     <IntroContent />
   </div>
   <div class='flex gap-4 mt-6'>
